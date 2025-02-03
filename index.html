@@ -1,41 +1,29 @@
 <!DOCTYPE html>
-
 <html lang="pt">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>FSB - Fichário</title>
-
-    <link rel="stylesheet" href="fichario.css">
-
+    <title>Fichário de Atendimento</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="fichario">
+<div class="container">
+    <div class="fichario">
+        <div class="fichario-container">
+            <h2 class="titulo-fichario"><span class="cruz-vermelha">✚</span> FSB</h2>
+            
+            <div class="cabecalho">
+                <div class="coluna">Nome</div>
+                <div class="coluna">Consultório</div>
+                <div class="coluna">Senha</div>
+            </div>
 
-    <h1><span class="cruz-vermelha">✚</span> FSB</h1>
-
-    <div class="cabecalho">
-
-        <div class="coluna">Nome</div>
-
-        <div class="coluna">Consultório</div>
-
-        <div class="coluna">Senha</div>
-
+            <div class="lista-fichas" id="listaFichas"></div>
+        </div>
     </div>
-
-    <div class="lista-fichas" id="listaFichas"></div>
-
 </div>
 
-<script src="fichario.js"></script>
-
+<script src="script.js"></script>
 </body>
-
 </html>
